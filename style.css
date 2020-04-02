@@ -23,7 +23,6 @@ div.info-box {
 
 p {
     text-align: center;
-    text-transform: uppercase;
     font-size: 1.375rem;
     font-weight: 900;
 }
@@ -54,6 +53,12 @@ img.right-bottom {
 
 img.logo {
     width: 13.75vw;
+}
+
+@media only screen and (max-width: 767px) {
+    img.logo {
+        width: 29.9vw;
+    }
 }
 
 a.email {
